@@ -1,0 +1,151 @@
+/* Global variables */
+:root {
+  --accent-color: #2196f3;
+  --title-color: #212121;
+  --white-color: #ffffff;
+  --logo-text-color: #000000;
+  --primary-text-color: #757575;
+  --background-color: #2f303a;
+}
+
+/* Utilities */
+h1,
+h2,
+h3,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  outline: 2px solid tomato;
+}
+
+/* Menu */
+.main-nav {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #ececec;
+}
+.site-nav {
+  display: flex;
+  margin-left: 93px;
+}
+.contact-nav {
+  display: flex;
+  margin-left: auto;
+}
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--logo-text-color);
+}
+
+.logo span {
+  color: var(--accent-color);
+}
+.site-nav .item:not(:last-child) {
+  margin-right: 50px;
+}
+
+.site-nav .link {
+  display: block;
+  margin-top: 32px;
+  margin-bottom: 32px;
+
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--title-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+.link.primary {
+  color: var(--accent-color);
+}
+.contact-nav .link {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+}
+.contact-nav .link:hover,
+.contact-nav .link:focus {
+  color: var(--accent-color);
+}
+.contact-nav .item:not(:last-child) {
+  margin-right: 50px;
+}
+
+/* Hero */
+.hero {
+}
+.container-hero {
+  text-align: center;
+}
+.hero h1 {
+  width: 696px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--title-color);
+  outline: 2px solid tomato;
+}
+.button-hero {
+  display: block;
+  padding-top: 10px;
+  padding-left: 32px;
+  padding-bottom: 10px;
+  padding-right: 32px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: 0;
+  margin-left: auto;
+  margin-right: auto;
+
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  background-color: var(--accent-color);
+  color: var(--white-color);
+
+  cursor: pointer;
+}
+
+/* Section advantage */
+
+.section-advantage;
